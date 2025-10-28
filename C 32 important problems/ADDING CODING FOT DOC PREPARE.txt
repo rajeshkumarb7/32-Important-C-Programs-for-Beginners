@@ -44,3 +44,126 @@ return 0;
 }
 
 _____________________________________________________________
+
+/*
+    2. Find whether given year Leap year or not
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int year;
+    printf("Enter the year : ");
+    scanf("%d",&year);
+
+    if(year%4==0){
+        if(year%100==0){
+            if(year%400==0){
+                    printf("The Given year %d is Leap Year",year);
+            }
+            else{
+                    printf("The Given year %d is not leap Year",year);
+            }
+            }
+        else{
+            printf("The Given year %d is Leap Year",year);
+        }
+
+    }
+    else{
+        printf("The Given year %d is not leap Year",year);
+    }
+
+    return 0;
+}
+
+/*
+    Program to check whether a given year is a Leap Year or not.  ✅
+
+    Rules for Leap Year:
+    1. A year is a leap year if it is divisible by 4.
+    2. But if it is divisible by 100, it is not a leap year.
+    3. However, if it is also divisible by 400, then it is a leap year.
+
+    Example:
+    2000 → Leap Year (divisible by 400)
+    1900 → Not Leap Year (divisible by 100 but not 400)
+    2024 → Leap Year (divisible by 4 but not 100)
+*/
+
+______________________________________________________________
+/*
+    3. Sum of digits
+
+    ex: num=2043 => sum=2+0+4+3=> sum=9
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,sum=0;
+    printf("Enter the Num : ");
+    scanf("%d",&num);
+    printf("The Given Number %d ",num);
+
+    while(num>0){ // loop stop at num=0
+        sum=sum+num%10; // starting  sum=0 num%10 is last digit
+        //sum+=num%10;
+        num/=10; //remove last digit
+        //num=num/10;
+    }
+
+    printf("sum of digits is:%d",sum);
+
+    return 0;
+}
+
+_________________________________________________________________
+
+/*
+    4. Reverse the number
+
+    ex: num=12345 => num=54321
+*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num,rev=0;      // num = input number, rev = reversed number
+    printf("Enter the Num : ");
+    scanf("%d",&num);    // take number input
+
+    while(num>0){           // loop runs until number becomes 0
+        rev=rev*10+num%10;  // take last digit and add to rev
+        num/=10; //remove last digit
+    }
+
+    printf("\nReversed number is:%d",rev);
+
+    return 0;
+}
+
+/*
+
+step by step with num = 12345 and rev = 0:
+
+Step	num	num%10 (last digit)	rev = rev*10 + num%10	num = num/10
+1	12345	5	0*10 + 5 = 5	1234
+2	1234	4	5*10 + 4 = 54	123
+3	123	3	54*10 + 3 = 543	12
+4	12	2	543*10 + 2 = 5432	1
+5	1	1	5432*10 + 1 = 54321	0
+
+-> When num becomes 0, the loop stops.
+
+Now rev = 54321.
+
+*/
+
+_____________________________________________________--

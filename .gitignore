@@ -1,0 +1,19 @@
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore Git attributes file
+.gitattributes
+
+__pycache__/
+*.log
+*.tm
+
+# folders to ignore
+ignore
+#docs
+
+# Ignore all PDFs
+.pdf/*
+# Keep these specific ones
+!important_notes.pdf
+!docs/project_summary.pdf
