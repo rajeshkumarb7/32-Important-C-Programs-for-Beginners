@@ -51,8 +51,8 @@ Each file includes:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/rajeshkumarb7/32-important-c-programs.git
-   cd 32-important-c-programs
+   https://github.com/rajeshkumarb7/32-Important-C-Programs-for-Beginners.git
+   cd 32-Important-C-Programs-for-Beginners
    ```
 
 2. Compile and run any program:
@@ -84,3 +84,4 @@ Special thanks to **Logic First Tamil** for providing clear and useful explanati
 ---
 
 [![Watch on YouTube](https://img.youtube.com/vi/YP-xgfv-Lzg/0.jpg)](https://youtu.be/YP-xgfv-Lzg?si=y1_CBGRnqaSwcgOo)
+
