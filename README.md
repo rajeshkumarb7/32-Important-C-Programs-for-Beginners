@@ -23,7 +23,7 @@ and practiced each problem by writing and solving the programs myself.
 │
 ├── C_1_Sum_2_Variables.c   // Example: Sum of two numbers
 ├── C_2_check_even.c   // Example: Check even or odd
-├── C_1_Factorial.c   // Example: Factorial using loop
+├── C_3_Factorial.c   // Example: Factorial using loop
 │   ...
 └── program32.c   // Example: Final problem from the video
 ```
@@ -84,5 +84,6 @@ Special thanks to **Logic First Tamil** for providing clear and useful explanati
 ---
 
 [![Watch on YouTube](https://img.youtube.com/vi/YP-xgfv-Lzg/0.jpg)](https://youtu.be/YP-xgfv-Lzg?si=y1_CBGRnqaSwcgOo)
+
 
 
